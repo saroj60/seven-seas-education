@@ -94,7 +94,10 @@ const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium text-slate-500 uppercase tracking-widest">
-          <p>© {currentYear} Seven Seas Education Pvt. Ltd. All Rights Reserved.</p>
+          <div className="flex flex-col gap-1 items-center md:items-start text-center md:text-left">
+            <p>© {currentYear} Seven Seas Education Pvt. Ltd. All Rights Reserved.</p>
+            <p className="normal-case text-[10px] opacity-60">Developed by: <a href="mailto:sarojbhagat666@gmail.com" className="hover:text-brand-orange transition-colors">sarojbhagat666@gmail.com</a></p>
+          </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
