@@ -44,6 +44,7 @@ const slides = [
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const yearsOfExperience = new Date().getFullYear() - 2017;
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -138,7 +139,7 @@ const Hero = () => {
               </div>
               <div className="w-px h-10 bg-slate-700" />
               <div className="flex flex-col">
-                <span className="text-3xl font-bold text-white"><Counter value={9} suffix="+" /></span>
+                <span className="text-3xl font-bold text-white"><Counter value={yearsOfExperience} suffix="+" /></span>
                 <span className="text-xs text-slate-400 font-medium uppercase tracking-wider">Years Exp.</span>
               </div>
             </div>

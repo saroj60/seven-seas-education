@@ -112,7 +112,7 @@ const Home = () => {
               <div className="bg-white p-6 rounded-3xl shadow-xl border border-slate-100 ml-12">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-brand-orange rounded-full flex items-center justify-center text-white">
-                    <span className="font-bold text-lg">9+</span>
+                    <span className="font-bold text-lg">{new Date().getFullYear() - 2017}+</span>
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-800">Years Exp.</h4>
