@@ -61,9 +61,9 @@ const Training = () => {
               </div>
               
               <div className="pt-8 border-t border-slate-100 flex justify-center items-center">
-                <button className="w-full bg-brand-blue text-white px-6 py-4 rounded-2xl font-bold text-sm hover:bg-brand-blue-dark transition-all">
-                  Enroll Now
-                </button>
+                <Link to="/contact" className="w-full bg-slate-50 text-slate-800 hover:bg-slate-100 px-6 py-4 rounded-2xl font-bold text-sm transition-all text-center">
+                  Enquire Now
+                </Link>
               </div>
             </div>
           ))}
