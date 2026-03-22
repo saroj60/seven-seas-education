@@ -81,9 +81,9 @@ const Hero = () => {
           >
             <div className="flex flex-col gap-4 mb-8">
           <div className="flex flex-wrap items-center gap-3">
-            <div className="bg-brand-blue/10 backdrop-blur-md border border-brand-blue/20 px-4 py-2 rounded-full flex items-center gap-2">
-              <ShieldCheck size={18} className="text-brand-blue" />
-              <span className="text-brand-blue font-bold text-xs md:text-sm uppercase tracking-wider">Certified by Ministry of Education</span>
+            <div className="bg-white/5 backdrop-blur-md border border-white/10 px-4 py-2 rounded-full flex items-center gap-2">
+              <ShieldCheck size={18} className="text-blue-400" />
+              <span className="text-blue-500 font-bold text-xs md:text-sm uppercase tracking-wider">Certified by Ministry of Education</span>
             </div>
             <div className="bg-brand-orange/10 backdrop-blur-md border border-brand-orange/20 px-4 py-2 rounded-full flex items-center gap-2">
               <Award size={18} className="text-brand-orange" />
