@@ -139,12 +139,14 @@ const Testimonials = () => {
 
               <div className="flex items-center gap-4 border-t border-slate-50 pt-8 mt-2">
                 <div className="relative">
-                   <div className="absolute -inset-1.5 bg-brand-orange/20 rounded-full blur group-hover:scale-110 transition-transform" />
-                   <img 
-                    src={item.image} 
-                    alt={item.name} 
-                    className="relative w-24 h-24 rounded-full object-cover border-4 border-white shadow-md shadow-slate-200" 
-                  />
+                   <div className="absolute -inset-2.5 bg-brand-orange/20 rounded-full blur group-hover:scale-110 transition-transform" />
+                   <div className="relative w-40 h-40 rounded-full bg-white p-1 border-[8px] border-white shadow-2xl shadow-slate-300 overflow-hidden">
+                     <img 
+                      src={item.image} 
+                      alt={item.name} 
+                      className="w-full h-full rounded-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-500" 
+                    />
+                   </div>
                 </div>
                 <div>
                   <h4 className="font-extrabold text-slate-900 group-hover:text-brand-orange transition-colors">{item.name}</h4>

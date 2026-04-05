@@ -17,6 +17,10 @@ const translations = {
       docs: "Documents",
       scholarships: "Scholarships",
       counselling: "Educational Counselling",
+      processDesc: "Step-by-step roadmap for your study journey.",
+      docsDesc: "Essential paperwork and certification details.",
+      counsellingDesc: "Personalized expert guidance for your goals.",
+      scholarshipsDesc: "Financial aid and award opportunities in Japan.",
     },
     hero: {
       title: "Your Journey to Japan Begins at",
@@ -56,6 +60,10 @@ const translations = {
       docs: "कागजातहरू",
       scholarships: "छात्रवृत्ति",
       counselling: "शैक्षिक परामर्श",
+      processDesc: "तपाईको अध्ययन यात्राको लागि चरण-दर-चरण रोडम्याप।",
+      docsDesc: "आवश्यक कागजात र प्रमाणीकरण विवरणहरू।",
+      counsellingDesc: "तपाईको लक्ष्यहरूको लागि व्यक्तिगत विशेषज्ञ मार्गदर्शन।",
+      scholarshipsDesc: "जापानमा आर्थिक सहायता र छात्रवृत्ति अवसरहरू।",
     },
     hero: {
       title: "जापानको यात्राको सुरुवात",
@@ -95,6 +103,10 @@ const translations = {
       docs: "書類",
       scholarships: "奨学金",
       counselling: "教育カウンセリング",
+      processDesc: "あなたの留学への道のりのステップバイステップガイド。",
+      docsDesc: "必要書類と証明書の詳細情報。",
+      counsellingDesc: "あなたの目標へのパーソナライズされたガイダンス。",
+      scholarshipsDesc: "日本での奨学金と財政支援の機会。",
     },
     hero: {
       title: "日本への道はここから始まる",

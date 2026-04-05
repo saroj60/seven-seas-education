@@ -17,6 +17,7 @@ import NAT from './pages/Tests/NAT';
 import Training from './pages/Training';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import Documents from './pages/Documents';
 
 function App() {
   const location = useLocation();
@@ -40,6 +41,7 @@ function App() {
               <Route path="/training" element={<Training />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/documents" element={<Documents />} />
             </Routes>
           </AnimatePresence>
         </main>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronDown, Languages, GraduationCap, Image as ImageIcon, Phone, MessageSquare } from 'lucide-react';
+import { Menu, X, ChevronDown, Languages, GraduationCap, Image as ImageIcon, Phone, MessageSquare, ClipboardList, FileText, Users } from 'lucide-react';
 import { useTranslate } from '../../context/LanguageContext';
 import Logo from '../common/Logo';
 
@@ -27,10 +27,10 @@ const Navbar = () => {
       name: t('nav.abroad'), 
       path: '/abroad-study',
       submenu: [
-        { name: t('nav.process'), path: '/abroad-study#process' },
-        { name: t('nav.docs'), path: '/abroad-study#docs' },
-        { name: t('nav.counselling'), path: '/contact' },
-        { name: t('nav.scholarships'), path: '/abroad-study#scholarships' },
+        { name: t('nav.process'), path: '/abroad-study#process', desc: t('nav.processDesc'), icon: ClipboardList },
+        { name: t('nav.docs'), path: '/documents', desc: t('nav.docsDesc'), icon: FileText },
+        { name: t('nav.counselling'), path: '/contact', desc: t('nav.counsellingDesc'), icon: Users },
+        { name: t('nav.scholarships'), path: '/abroad-study#scholarships', desc: t('nav.scholarshipsDesc'), icon: GraduationCap },
       ]
     },
     { 
@@ -115,15 +115,27 @@ const Navbar = () => {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 10 }}
-                    className="absolute top-full left-0 mt-2 w-48 bg-white shadow-xl rounded-xl overflow-hidden py-2 border border-slate-100"
+                    className="absolute top-full left-0 mt-2 w-[400px] bg-white shadow-2xl rounded-[2rem] overflow-hidden p-4 border border-slate-100 z-50 grid grid-cols-1 gap-1"
                   >
                     {link.submenu.map((sub) => (
                       <Link
                         key={sub.name}
                         to={sub.path}
-                        className="block px-4 py-2 text-sm text-slate-600 hover:bg-slate-50 hover:text-brand-orange transition-colors"
+                        className="group/sub flex items-start gap-4 p-4 rounded-2xl hover:bg-slate-50 transition-all"
                       >
-                        {sub.name}
+                        <div className="w-10 h-10 rounded-xl bg-orange-50 flex items-center justify-center text-brand-orange shrink-0 group-hover/sub:bg-brand-orange group-hover/sub:text-white transition-colors">
+                          {sub.icon ? <sub.icon size={20} /> : <div className="w-2 h-2 rounded-full bg-brand-orange" />}
+                        </div>
+                        <div>
+                          <p className="font-bold text-slate-900 group-hover/sub:text-brand-orange transition-colors">
+                            {sub.name}
+                          </p>
+                          {sub.desc && (
+                            <p className="text-xs text-slate-500 mt-0.5 line-clamp-1 opacity-80">
+                              {sub.desc}
+                            </p>
+                          )}
+                        </div>
                       </Link>
                     ))}
                   </motion.div>
@@ -215,14 +227,20 @@ const Navbar = () => {
                     {link.name}
                   </Link>
                   {link.submenu && (
-                    <div className="pl-4 flex flex-col gap-3 border-l-2 border-slate-100 mt-2">
+                    <div className="pl-4 flex flex-col gap-4 border-l-2 border-slate-100 mt-4 h-max">
                       {link.submenu.map((sub) => (
                         <Link
                           key={sub.name}
                           to={sub.path}
-                          className="text-slate-500 font-medium hover:text-brand-orange"
+                          className="flex items-start gap-3 group"
                         >
-                          {sub.name}
+                          <div className="w-8 h-8 rounded-lg bg-slate-50 flex items-center justify-center text-slate-400 shrink-0">
+                            {sub.icon && <sub.icon size={16} />}
+                          </div>
+                          <div>
+                            <p className="text-slate-700 font-bold text-sm tracking-tight">{sub.name}</p>
+                            {sub.desc && <p className="text-[10px] text-slate-400 mt-0.5 leading-tight">{sub.desc}</p>}
+                          </div>
                         </Link>
                       ))}
                     </div>
