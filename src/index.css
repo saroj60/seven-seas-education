@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-orange: #FF6600;
-  --color-brand-orange-dark: #cc5200;
-  --color-brand-blue: #003399;
-  --color-brand-blue-dark: #002673;
+  --color-brand-orange: #F58220;
+  --color-brand-orange-dark: #D46B18;
+  --color-brand-blue: #1B4F93;
+  --color-brand-blue-dark: #153D72;
   --font-inter: "Inter", sans-serif;
   --font-outfit: "Outfit", sans-serif;
 }
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, var(--color-everest-red), var(--color-everest-blue));
+  background: linear-gradient(135deg, var(--color-brand-orange), var(--color-brand-blue));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

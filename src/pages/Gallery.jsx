@@ -3,9 +3,19 @@ import { motion } from 'framer-motion';
 import Section from '../components/common/Section';
 import Breadcrumb from '../components/common/Breadcrumb';
 import { Camera } from 'lucide-react';
+import g1 from '../assets/g1.jpeg';
+import g2 from '../assets/g2.jpeg';
+import g3 from '../assets/g3.jpeg';
+import g4 from '../assets/g4.jpeg';
+import g5 from '../assets/G5.jpeg';
 
 const Gallery = () => {
   const images = [
+    { url: g1, title: 'Inauguration Ceremony' },
+    { url: g2, title: 'Class Session' },
+    { url: g3, title: 'Cultural Interaction' },
+    { url: g4, title: 'Student Achievement' },
+    { url: g5, title: 'Interactive Learning' },
     { url: '/images/gallery/gallery-1.jpeg', title: 'Interactive Learning' },
     { url: '/images/gallery/gallery-2.jpeg', title: 'Cultural Celebration' },
     { url: '/images/gallery/gallery-3.jpeg', title: 'Student Excellence' },

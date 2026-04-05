@@ -21,6 +21,11 @@ const Training = () => {
       title: 'French Language Course',
       level: 'A1 - Beginner',
       description: 'Learn French from scratch with emphasis on speaking and listening skills.'
+    },
+    {
+      title: 'IELTS Preparation',
+      level: 'B1/B2/C1',
+      description: 'Master all four modules of IELTS with expert coaching for academic and general tests.'
     }
   ];
 

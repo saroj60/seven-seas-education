@@ -33,6 +33,13 @@ const TestPreparation = () => {
       image: 'https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?q=80&w=2070&auto=format&fit=crop',
       tag: 'New Standard',
       link: '/test-preparation/jlct'
+    },
+    {
+      title: 'IELTS (International English Language Testing System)',
+      description: 'The world\'s most popular English language proficiency test for higher education and global migration.',
+      image: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1973&auto=format&fit=crop',
+      tag: 'English Proficiency',
+      link: '/test-preparation/ielts'
     }
   ];
 

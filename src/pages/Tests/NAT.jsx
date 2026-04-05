@@ -2,7 +2,7 @@ import React from 'react';
 import Section from '../../components/common/Section';
 import Breadcrumb from '../../components/common/Breadcrumb';
 import CTA from '../../components/common/CTA';
-import { CheckCircle, Info, Calendar, Target } from 'lucide-react';
+import { CheckCircle, Info, Target } from 'lucide-react';
 
 const NAT = () => {
   return (
@@ -29,7 +29,7 @@ const NAT = () => {
                   What is NAT-TEST?
                 </h3>
                 <p className="text-slate-600 leading-relaxed">
-                  The NAT-TEST is held six times a year. It is one of the most popular tests for students seeking to study in Japan, as it is widely accepted by Japanese language schools and the Immigration Bureau of Japan. The difficulty levels are divided into five levels: 5Q (Easiest) to 1Q (Most Hard).
+                  The NAT-TEST is held six times a year. It is one of the most popular tests for students seeking to study in Japan, as it is widely accepted by Japanese language institutes and the Immigration Bureau of Japan. The difficulty levels are divided into five levels: 5Q (Easiest) to 1Q (Most Hard).
                 </p>
               </section>
 
@@ -55,40 +55,7 @@ const NAT = () => {
                 </div>
               </section>
 
-              <section>
-                <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center gap-2">
-                  <Calendar className="text-brand-orange" />
-                  Test Schedule 2026
-                </h3>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-left border-collapse">
-                    <thead>
-                      <tr className="border-b-2 border-slate-100">
-                        <th className="py-4 font-bold text-slate-400 uppercase text-xs tracking-widest">Month</th>
-                        <th className="py-4 font-bold text-slate-400 uppercase text-xs tracking-widest">Levels</th>
-                        <th className="py-4 font-bold text-slate-400 uppercase text-xs tracking-widest">Status</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-slate-100">
-                      <tr>
-                        <td className="py-4 font-bold text-slate-700">February</td>
-                        <td className="py-4 text-slate-500 text-sm">All Levels (1Q - 5Q)</td>
-                        <td className="py-4"><span className="text-xs font-bold px-3 py-1 bg-red-100 text-red-600 rounded-full">Closed</span></td>
-                      </tr>
-                      <tr>
-                        <td className="py-4 font-bold text-slate-700">April</td>
-                        <td className="py-4 text-slate-500 text-sm">All Levels (1Q - 5Q)</td>
-                        <td className="py-4"><span className="text-xs font-bold px-3 py-1 bg-green-100 text-green-600 rounded-full">Open</span></td>
-                      </tr>
-                      <tr>
-                        <td className="py-4 font-bold text-slate-700">June</td>
-                        <td className="py-4 text-slate-500 text-sm">All Levels (1Q - 5Q)</td>
-                        <td className="py-4"><span className="text-xs font-bold px-3 py-1 bg-blue-100 text-blue-600 rounded-full">Upcoming</span></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </section>
+
             </div>
           </div>
 
