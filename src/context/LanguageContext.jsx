@@ -20,7 +20,7 @@ const translations = {
     },
     hero: {
       title: "Your Journey to Japan Begins at",
-      japan: "Japan",
+      japan: "Seven Seas",
       subtitle: "Unlock endless opportunities with professional Japanese language training and expert consultancy. We bridge the gap between your dreams and reality.",
       apply: "Apply Now",
       learnMore: "Learn More",
@@ -59,7 +59,7 @@ const translations = {
     },
     hero: {
       title: "जापानको यात्राको सुरुवात",
-      japan: "जापान",
+      japan: "सेभेन सिज",
       subtitle: "व्यावसायिक जापानी भाषा तालिम र विशेषज्ञ परामर्शको साथ अनन्त अवसरहरू खोल्नुहोस्। हामी तपाईंको सपना र वास्तविकता बीचको खाडललाई जोड्दछौं।",
       apply: "अहिले आवेदन दिनुहोस्",
       learnMore: "थप जान्नुहोस्",
@@ -98,7 +98,7 @@ const translations = {
     },
     hero: {
       title: "日本への道はここから始まる",
-      japan: "日本",
+      japan: "セブンシーズ",
       subtitle: "専門的な日本語トレーニングとエキスパートコンサルタンシーで、無限の可能性を広げましょう。私たちはあなたの夢と現実の架け橋となります。",
       apply: "今すぐ申し込む",
       learnMore: "詳細を見る",
