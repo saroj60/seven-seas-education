@@ -16,7 +16,7 @@ const Testimonials = () => {
     {
       id: 1,
       name: "Nirjal Tamang",
-      role: "JLPT N4 Student",
+      role: "Student",
       image: t1,
       content: "The teaching methodology here is excellent. The instructors are very patient and focus on individual progress. Highly recommended for NAT/JLPT preparation.",
       stars: 5
@@ -24,7 +24,7 @@ const Testimonials = () => {
     {
       id: 2,
       name: "Rudra Karki",
-      role: "Study Abroad Applicant",
+      role: "Student",
       image: t2,
       content: "Seven Seas helped me not only with the language training but also with the entire processing for Japan. The environment is very supportive.",
       stars: 5
@@ -32,7 +32,7 @@ const Testimonials = () => {
     {
       id: 3,
       name: "Suman Bishwakarma",
-      role: "SSW Visa Candidate",
+      role: "Student",
       image: t3,
       content: "The skill-based training for SSW was very practical. I felt confident during my interviews thanks to the professional guidance I received here.",
       stars: 5
@@ -40,7 +40,7 @@ const Testimonials = () => {
     {
       id: 4,
       name: "Aarya Yonjan",
-      role: "Language Student",
+      role: "Student",
       image: t4,
       content: "Found my path to Japan through Seven Seas. The staff is incredibly knowledgeable and supportive throughout the documentation process.",
       stars: 5
@@ -48,7 +48,7 @@ const Testimonials = () => {
     {
       id: 5,
       name: "Alank Khadka",
-      role: "JLPT N5 Student",
+      role: "Student",
       image: t5,
       content: "Best place for Japanese language learning in town. The interactive classes and regular mock tests helped me clear my NAT test in the first attempt.",
       stars: 5
@@ -56,7 +56,7 @@ const Testimonials = () => {
     {
       id: 6,
       name: "Sarita Gurung",
-      role: "Study Abroad Student",
+      role: "Student",
       image: t6,
       content: "I'm grateful for the counseling I received. They helped me choose the right school and city in Japan based on my career goals.",
       stars: 5
@@ -64,7 +64,7 @@ const Testimonials = () => {
     {
       id: 7,
       name: "Deepak Joshi",
-      role: "Professional Trainee",
+      role: "Student",
       image: t7,
       content: "Highly professional environment. The dedication of the teachers is what sets Seven Seas apart from other institutes.",
       stars: 5
@@ -72,7 +72,7 @@ const Testimonials = () => {
     {
       id: 8,
       name: "Roshan Nepali",
-      role: "Advanced Learner",
+      role: "Student",
       image: roshan,
       content: "A truly transformative experience. The cultural immersion and language focus provided here are unmatched. Highly recommended!",
       stars: 5
