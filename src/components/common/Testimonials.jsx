@@ -63,7 +63,7 @@ const Testimonials = () => {
     },
     {
       id: 7,
-      name: "Deepak Joshi",
+      name: "Ganesh Rai",
       role: "Student",
       image: t7,
       content: "Highly professional environment. The dedication of the teachers is what sets Seven Seas apart from other institutes.",

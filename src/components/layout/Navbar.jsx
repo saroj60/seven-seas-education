@@ -112,6 +112,7 @@ const Navbar = () => {
               <AnimatePresence>
                 {link.submenu && activeDropdown === link.name && (
                   <motion.div
+                    key={`mega-menu-${link.name}-${Date.now()}`}
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 10 }}
