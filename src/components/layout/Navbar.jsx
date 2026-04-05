@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronDown, Languages, GraduationCap, Image as ImageIcon, Phone, MessageSquare, ClipboardList, FileText, Users } from 'lucide-react';
+import { Menu, X, ChevronDown, Languages, GraduationCap, Image as ImageIcon, Phone, MessageSquare, ClipboardList, FileText, Users, CheckCircle2, Globe } from 'lucide-react';
 import { useTranslate } from '../../context/LanguageContext';
 import Logo from '../common/Logo';
 
@@ -37,11 +37,11 @@ const Navbar = () => {
       name: t('nav.test'), 
       path: '/test-preparation',
       submenu: [
-        { name: 'JLPT', path: '/test-preparation/jlpt' },
-        { name: 'NAT', path: '/test-preparation/nat' },
-        { name: 'JFT', path: '/test-preparation/jft' },
-        { name: 'JLCT', path: '/test-preparation/jlct' },
-        { name: 'IELTS', path: '/test-preparation/ielts' },
+        { name: t('nav.jlpt'), path: '/test-preparation/jlpt', desc: t('nav.jlptDesc'), icon: GraduationCap },
+        { name: t('nav.nat'), path: '/test-preparation/nat', desc: t('nav.natDesc'), icon: CheckCircle2 },
+        { name: t('nav.jft'), path: '/test-preparation/jft', desc: t('nav.jftDesc'), icon: Globe },
+        { name: t('nav.jlct'), path: '/test-preparation/jlct', desc: t('nav.jlctDesc'), icon: FileText },
+        { name: t('nav.ielts'), path: '/test-preparation/ielts', desc: t('nav.ieltsDesc'), icon: Languages },
       ]
     },
     { name: t('nav.training'), path: '/training' },
