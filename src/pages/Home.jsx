@@ -162,13 +162,13 @@ const Home = () => {
                 <div className="absolute -top-4 -left-4 w-12 h-12 bg-brand-orange text-white rounded-2xl flex items-center justify-center shadow-lg">
                   <Users size={24} />
                 </div>
-                "Our mission is to empower Nepalese students with the language skills and cultural insights needed to thrive in Japan."
+                "Our mission is to empower Nepalese individuals with the language skills and cultural insights needed to thrive in Japan."
               </div>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {[
                   { icon: Users, title: 'Expert Faculty', desc: 'Native-level teachers' },
-                  { icon: BookOpen, title: 'Targeted Learning', desc: 'Ideal for ages 18-24' },
+                  { icon: BookOpen, title: 'Targeted Learning', desc: 'Students & Professionals' },
                   { icon: Globe, title: 'Direct Bridge', desc: 'Network with schools' },
                   { icon: GraduationCap, title: 'Full Support', desc: 'Visa to Job placement' }
                 ].map((item, idx) => (

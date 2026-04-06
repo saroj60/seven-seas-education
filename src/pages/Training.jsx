@@ -74,6 +74,7 @@ const Training = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 py-16 bg-white rounded-[4rem] px-12 shadow-inner border border-slate-100">
           {[
             { icon: Users, title: 'Small Batches', desc: 'Max 15 students per class for personalized attention.' },
+            { icon: Clock, title: 'Class Timer', desc: '1.5 hours per class for focused learning sessions.' },
             { icon: Languages, title: 'Native Audio', desc: 'Learn with genuine Japanese listening materials.' },
             { icon: BadgeCheck, title: 'Official Support', desc: 'Free assistance with test registration.' }
           ].map((item, idx) => (

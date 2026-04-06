@@ -65,7 +65,7 @@ const Contact = () => {
 
             <div className="space-y-8">
               {[
-                { icon: Phone, title: 'Call Us', detail: '01591592, 9765341882', sub: 'Sun - Fri, 10am - 5pm' },
+                { icon: Phone, title: 'Call Us', detail: '01591592, 9765341882', sub: 'Sun - Fri, 6am - 5pm' },
                 { icon: MessageSquare, title: 'WhatsApp Us', detail: '+977 985-1228996', sub: 'Instant Response' },
                 { icon: Mail, title: 'Email Us', detail: 'sevenseas.edu2017@gmail.com', sub: 'We reply within 24 hours' },
                 { icon: Facebook, title: 'Facebook Page', detail: 'Seven Seas Education', sub: 'Latest Updates', link: 'https://www.facebook.com/share/1Cm6dh3bSi/?mibextid=wwXIfr' },

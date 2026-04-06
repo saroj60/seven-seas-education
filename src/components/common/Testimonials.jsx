@@ -32,7 +32,7 @@ const Testimonials = () => {
     {
       id: 3,
       name: "Suman Bishwakarma",
-      role: "Student",
+      role: "SSW Candidate",
       image: t3,
       content: "The skill-based training for SSW was very practical. I felt confident during my interviews thanks to the professional guidance I received here.",
       stars: 5
@@ -97,7 +97,7 @@ const Testimonials = () => {
           transition={{ delay: 0.1 }}
           className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 leading-tight"
         >
-          What Our <span className="text-brand-orange">Students</span> Say
+          What Our <span className="text-brand-orange">Clients</span> Say
         </motion.h2>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}

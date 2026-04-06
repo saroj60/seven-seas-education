@@ -112,8 +112,8 @@ const TestDetails = () => {
                         <Clock size={20} className="text-brand-orange" />
                       </div>
                       <div>
-                        <p className="text-[10px] uppercase font-bold text-blue-300 tracking-widest">Timings</p>
-                        <p className="text-sm font-bold">7 AM - 10 AM / 4 PM - 7 PM</p>
+                        <p className="text-[10px] uppercase font-bold text-blue-300 tracking-widest">Duration</p>
+                        <p className="text-sm font-bold">1.5 Hr per class</p>
                       </div>
                     </div>
                   </div>
