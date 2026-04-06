@@ -13,7 +13,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import AbroadStudy from './pages/AbroadStudy';
 import TestPreparation from './pages/TestPreparation';
-import NAT from './pages/Tests/NAT';
+import TestDetails from './pages/Tests/TestDetails';
 import Training from './pages/Training';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
@@ -34,10 +34,8 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/abroad-study" element={<AbroadStudy />} />
               <Route path="/test-preparation" element={<TestPreparation />} />
-              <Route path="/test-preparation/jlpt" element={<NAT />} />
-              <Route path="/test-preparation/nat" element={<NAT />} />
-              <Route path="/test-preparation/jft" element={<NAT />} />
-              <Route path="/test-preparation/jlct" element={<NAT />} />
+              <Route path="/test-preparation/jlpt" element={<TestDetails />} />
+              <Route path="/test-preparation/:testId" element={<TestDetails />} />
               <Route path="/training" element={<Training />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/contact" element={<Contact />} />
