@@ -32,9 +32,9 @@ const Testimonials = () => {
     {
       id: 3,
       name: "Suman Bishwakarma",
-      role: "SSW Candidate",
+      role: "Student",
       image: t3,
-      content: "The skill-based training for SSW was very practical. I felt confident during my interviews thanks to the professional guidance I received here.",
+      content: "The interactive classes and language training were very practical. I felt confident during my interviews thanks to the professional guidance I received here.",
       stars: 5
     },
     {
@@ -106,7 +106,7 @@ const Testimonials = () => {
           transition={{ delay: 0.2 }}
           className="text-lg text-slate-600 leading-relaxed"
         >
-          Discover how Seven Seas Education has empowered individuals to achieve their dreams of studying and working in Japan.
+          Discover how Seven Seas Education has empowered individuals to achieve their dreams of studying in Japan.
         </motion.p>
       </div>
 

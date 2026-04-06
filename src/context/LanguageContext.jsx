@@ -26,7 +26,7 @@ const translations = {
       nat: "NAT-TEST",
       natDesc: "Evaluation of the Japanese ability of non-native speakers.",
       jft: "JFT-Basic",
-      jftDesc: "Measures Japanese proficiency for everyday life and 'Specified Skilled Worker' status.",
+      jftDesc: "Measures Japanese proficiency for everyday life.",
       jlct: "JLCT Test",
       jlctDesc: "Standardized Japanese testing for global communication.",
       ielts: "IELTS",
@@ -46,7 +46,7 @@ const translations = {
     home: {
       services: "Our Services",
       expertGuidance: "Expert Guidance for Your Success",
-      servicesDesc: "We provide end-to-end solutions for students and professionals looking to build their future in Japan.",
+      servicesDesc: "We provide end-to-end solutions for students looking to build their future in Japan.",
       whyChoose: "Why Choose Seven Seas?",
       elevating: "Elevating Your Career Through Excellence",
       onlineClasses: "Flexible Learning with Online Classes",
@@ -77,11 +77,11 @@ const translations = {
       jft: {
         title: "JFT-Basic Preparation",
         full: "Japan Foundation Test for Basic Japanese",
-        desc: "The JFT-Basic measures the Japanese proficiency needed to communicate in everyday life situations for foreign nationals residing in Japan for work.",
-        info: "Specifically designed for 'Specified Skilled Worker' (Tokutei Gino) visa applicants, focusing on practical communication at the CEFR A2 level.",
+        desc: "The JFT-Basic measures the Japanese proficiency needed to communicate in everyday life situations for foreign nationals residing in Japan.",
+        info: "Focusing on practical communication at the CEFR A2 level, perfect for daily life interactions.",
         frequency: "Frequent (Computer-Based Test)",
         levels: "Basic (Equivalent to N4)",
-        enroll: "Dedicated SSW preparation classes starting soon."
+        enroll: "Dedicated practical Japanese preparation classes starting soon."
       },
       jlct: {
         title: "JLCT Preparation",
@@ -126,7 +126,7 @@ const translations = {
       nat: "NAT-टेस्ट",
       natDesc: "गैर-नेपाली वक्ताहरूको जापानी क्षमताको मूल्याङ्कन।",
       jft: "JFT-बेसिक",
-      jftDesc: "दैनिक जीवन र 'निर्दिष्ट कुशल कामदार' स्थिति (SSW) को लागि जापानी दक्षता।",
+      jftDesc: "दैनिक जीवन र व्यावहारिक सञ्चारको लागि जापानी दक्षता।",
       jlct: "JLCT परीक्षा",
       jlctDesc: "विश्वव्यापी सञ्चारका लागि जापानी भाषा परीक्षण।",
       ielts: "IELTS",
@@ -146,7 +146,7 @@ const translations = {
     home: {
       services: "हाम्रा सेवाहरू",
       expertGuidance: "तपाईंको सफलताको लागि विशेषज्ञ मार्गदर्शन",
-      servicesDesc: "हामी जापानमा आफ्नो भविष्य निर्माण गर्न चाहने विद्यार्थी र पेशेवरहरूको लागि पूर्ण समाधान प्रदान गर्दछौं।",
+      servicesDesc: "हामी जापानमा आफ्नो भविष्य निर्माण गर्न चाहने विद्यार्थीहरूको लागि पूर्ण समाधान प्रदान गर्दछौं।",
       whyChoose: "किन सेभेन सिज रोज्ने?",
       elevating: "उत्कृष्टता मार्फत तपाईंको करियरलाई उचाल्दै",
       onlineClasses: "अनलाइन क्लास मार्फत सजिलो सिकाइ",
@@ -177,11 +177,11 @@ const translations = {
       jft: {
         title: "JFT-बेसिक तयारी",
         full: "आधारभूत जापानीका लागि जापान फाउण्डेशन परीक्षा",
-        desc: "JFT-बेसिकले जापानमा कामका लागि बस्ने विदेशी नागरिकहरूका लागि दैनिक जीवनमा सञ्चार गर्न आवश्यक जापानी दक्षता मापन गर्दछ।",
-        info: "विशेष गरी 'निर्दिष्ट कुशल कामदार' स्थिति (SSW) भिसाका लागि डिजाइन गरिएको, जसले व्यवहारिक कुराकानीमा ध्यान केन्द्रित गर्दछ।",
+        desc: "JFT-बेसिकले जापानमा बस्ने विदेशी नागरिकहरूका लागि दैनिक जीवनमा सञ्चार गर्न आवश्यक जापानी दक्षता मापन गर्दछ।",
+        info: "दैनिक कुराकानीमा ध्यान केन्द्रित गर्दै व्यावहारिक सञ्चार (CEFR A2 स्तर) का लागि उपयुक्त।",
         frequency: "बारम्बार (कम्प्युटरमा आधारित परीक्षा)",
         levels: "आधारभूत (N4 सरह)",
-        enroll: "समर्पित SSW तयारी कक्षाहरू चाँडै सुरु हुँदैछन्।"
+        enroll: "समर्पित व्यावहारिक जापानी तयारी कक्षाहरू चाँडै सुरु हुँदैछन्।"
       },
       jlct: {
         title: "JLCT तयारी",
@@ -226,7 +226,7 @@ const translations = {
       nat: "NAT-TEST",
       natDesc: "日本語を母国語としない者の能力を評価する試験。",
       jft: "JFT-Basic",
-      jftDesc: "日常生活や「特定技能」の在留資格取得に必要な日本語能力を測定します。",
+      jftDesc: "日常生活に必要な実践的な日本語能力を測定します。",
       jlct: "JLCT技能検定",
       jlctDesc: "グローバルなコミュニケーションのための日本語試験。",
       ielts: "IELTS",
@@ -246,7 +246,7 @@ const translations = {
     home: {
       services: "私たちのサービス",
       expertGuidance: "あなたの成功のための専門的ガイダンス",
-      servicesDesc: "日本で未来を築こうとする学生や専門家のために、エンドツーエンドのソリューションを提供します。",
+      servicesDesc: "日本で未来を築こうとする学生のために、エンドツーエンドのソリューションを提供します。",
       whyChoose: "なぜセブンシーズなのか？",
       elevating: "卓越性を通じてあなたのキャリアを高める",
       onlineClasses: "オンラインクラスによる柔軟な学習",
@@ -277,11 +277,11 @@ const translations = {
       jft: {
         title: "JFT-Basic 対策",
         full: "国際交流基金日本語基礎テスト",
-        desc: "JFT-Basicは、日本で働くために滞在する外国人が日常生活で必要な日本語能力を測定する試験です。",
-        info: "特に「特定技能」ビザの申請者を対象としており、CEFR A2レベルの実践的なコミュニケーションに焦点を当てています。",
+        desc: "JFT-Basicは、日本に滞在する外国人が日常生活で必要な日本語能力を測定する試験です。",
+        info: "CEFR A2レベルの実践的なコミュニケーションに焦点を当てており、日常生活でのやり取りに最適です。",
         frequency: "随時実施（CBT方式）",
         levels: "基礎（N4相当）",
-        enroll: "特定技能クラスがまもなく開始されます。"
+        enroll: "実践的な日本語クラスがまもなく開始されます。"
       },
       jlct: {
         title: "JLCT 対策",

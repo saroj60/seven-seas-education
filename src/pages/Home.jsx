@@ -57,9 +57,9 @@ const Home = () => {
       link: '/test-preparation/ielts'
     },
     {
-      title: 'Skill Base Training',
-      description: 'Specific language training tailored for various professional backgrounds and SSW visa.',
-      image: 'https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?q=80&w=2070&auto=format&fit=crop',
+      title: 'Basic Japanese Training',
+      description: 'Specific language training tailored for everyday life and communication in Japan.',
+      image: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=2070&auto=format&fit=crop',
       tag: 'Professional',
       link: '/test-preparation/jft'
     }
@@ -168,9 +168,9 @@ const Home = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {[
                   { icon: Users, title: 'Expert Faculty', desc: 'Native-level teachers' },
-                  { icon: BookOpen, title: 'Targeted Learning', desc: 'Students & Professionals' },
+                  { icon: BookOpen, title: 'Targeted Learning', desc: 'Dedicated to Students' },
                   { icon: Globe, title: 'Direct Bridge', desc: 'Network with schools' },
-                  { icon: GraduationCap, title: 'Full Support', desc: 'Visa to Job placement' }
+                  { icon: GraduationCap, title: 'Full Support', desc: 'Admission to Visa' }
                 ].map((item, idx) => (
                   <div key={idx} className="flex gap-4">
                     <div className="w-10 h-10 shrink-0 bg-white rounded-xl shadow-md border border-slate-100 flex items-center justify-center text-brand-orange">

@@ -22,9 +22,9 @@ const TestPreparation = () => {
     },
     {
       title: 'JFT-Basic',
-      description: 'Assessment for the Specified Skilled Worker (SSW) visa category.',
+      description: 'Assessment measuring basic Japanese proficiency for everyday life.',
       image: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=2070&auto=format&fit=crop',
-      tag: 'For SSW',
+      tag: 'Daily Life',
       link: '/test-preparation/jft'
     },
     {
