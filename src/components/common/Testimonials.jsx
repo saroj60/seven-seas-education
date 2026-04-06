@@ -55,7 +55,7 @@ const Testimonials = () => {
     },
     {
       id: 6,
-      name: "Sarita Gurung",
+      name: "Ashmi Goley",
       role: "Student",
       image: t6,
       content: "I'm grateful for the counseling I received. They helped me choose the right school and city in Japan based on my career goals.",

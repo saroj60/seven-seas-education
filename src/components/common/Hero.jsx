@@ -8,6 +8,7 @@ import g2 from '../../assets/g2.jpeg';
 import g3 from '../../assets/g3.jpeg';
 import g4 from '../../assets/g4.jpeg';
 import g5 from '../../assets/G5.jpeg';
+import g6 from '../../assets/g6.jpeg';
 
 const Counter = ({ value, duration = 2, suffix = "" }) => {
   const [displayValue, setDisplayValue] = useState(0);
@@ -49,6 +50,10 @@ const slides = [
   {
     image: g5,
     alt: "Seven Seas Education - Activity 5"
+  },
+  {
+    image: g6,
+    alt: "Seven Seas Education - Activity 6"
   }
 ];
 
@@ -129,7 +134,6 @@ const Hero = () => {
             {/* Quick Stats */}
             <div className="flex gap-10 border-t border-white/10 pt-10">
               {[
-                { label: t('hero.studentsSent'), num: 2500, suffix: '+', icon: Users },
                 { label: t('hero.visaSuccess'), num: 98, suffix: '%', icon: Star },
                 { label: t('hero.yearsExp'), num: (new Date().getFullYear() - 2017), suffix: '+', icon: GraduationCap }
               ].map((stat, i) => (

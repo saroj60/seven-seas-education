@@ -29,7 +29,7 @@ const translations = {
       jftDesc: "Measures Japanese proficiency for everyday life and 'Specified Skilled Worker' status.",
       jlct: "JLCT Test",
       jlctDesc: "Standardized Japanese testing for global communication.",
-      ielts: "IELTS English",
+      ielts: "IELTS",
       ieltsDesc: "World's most popular English proficiency test for migration.",
     },
     hero: {
@@ -129,7 +129,7 @@ const translations = {
       jftDesc: "दैनिक जीवन र 'निर्दिष्ट कुशल कामदार' स्थिति (SSW) को लागि जापानी दक्षता।",
       jlct: "JLCT परीक्षा",
       jlctDesc: "विश्वव्यापी सञ्चारका लागि जापानी भाषा परीक्षण।",
-      ielts: "IELTS अङ्ग्रेजी",
+      ielts: "IELTS",
       ieltsDesc: "बसाइसराइ र उच्च शिक्षाको लागि विश्व प्रसिद्ध अङ्ग्रेजी परीक्षा।",
     },
     hero: {
@@ -229,7 +229,7 @@ const translations = {
       jftDesc: "日常生活や「特定技能」の在留資格取得に必要な日本語能力を測定します。",
       jlct: "JLCT技能検定",
       jlctDesc: "グローバルなコミュニケーションのための日本語試験。",
-      ielts: "IELTS英語",
+      ielts: "IELTS",
       ieltsDesc: "移住と留学のための世界で最も人気のある英語試験。",
     },
     hero: {
