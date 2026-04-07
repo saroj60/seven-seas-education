@@ -79,7 +79,7 @@ const Footer = () => {
               </li>
               <li className="flex gap-3">
                 <Phone className="text-brand-orange shrink-0" size={20} />
-                <span className="text-sm">01591592, 9765341882</span>
+                <span className="text-sm">015915982, 9765341882</span>
               </li>
               <li className="flex gap-3 text-white">
                 <MessageSquare className="text-green-500 shrink-0" size={20} />

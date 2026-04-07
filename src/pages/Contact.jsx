@@ -65,7 +65,7 @@ const Contact = () => {
 
             <div className="space-y-8">
               {[
-                { icon: Phone, title: 'Call Us', detail: '01591592, 9765341882', sub: 'Sun - Fri, 6am - 5pm' },
+                { icon: Phone, title: 'Call Us', detail: '015915982, 9765341882', sub: 'Sun - Fri, 6am - 5pm' },
                 { icon: MessageSquare, title: 'WhatsApp Us', detail: '+977 985-1228996', sub: 'Instant Response' },
                 { icon: Mail, title: 'Email Us', detail: 'sevenseas.edu2017@gmail.com', sub: 'We reply within 24 hours' },
                 { icon: Facebook, title: 'Facebook Page', detail: 'Seven Seas Education', sub: 'Latest Updates', link: 'https://www.facebook.com/share/1Cm6dh3bSi/?mibextid=wwXIfr' },
@@ -172,7 +172,7 @@ const Contact = () => {
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="01591592" 
+                        placeholder="015915982" 
                         className="bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 outline-none focus:border-brand-blue focus:bg-white transition-all"
                       />
                     </div>

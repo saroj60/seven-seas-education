@@ -47,7 +47,7 @@ const Testimonials = () => {
     },
     {
       id: 5,
-      name: "Alank Khadka",
+      name: "Alan Khadka",
       role: "Student",
       image: t5,
       content: "Best place for Japanese language learning in town. The interactive classes and regular mock tests helped me clear my NAT test in the first attempt.",

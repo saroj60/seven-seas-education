@@ -119,18 +119,8 @@ const Home = () => {
               className="rounded-[3rem] shadow-2xl relative z-10"
             />
             <div className="absolute -bottom-8 -left-8 flex flex-col gap-4 z-20 hidden md:flex">
+
               <div className="bg-white p-6 rounded-3xl shadow-xl border border-slate-100">
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white">
-                    <ShieldCheck size={24} />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-800">ISO Certified</h4>
-                    <p className="text-xs text-slate-500 uppercase tracking-tighter">Quality Guaranteed</p>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-white p-6 rounded-3xl shadow-xl border border-slate-100 ml-12">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-brand-orange rounded-full flex items-center justify-center text-white">
                     <span className="font-bold text-lg">{new Date().getFullYear() - 2017}+</span>

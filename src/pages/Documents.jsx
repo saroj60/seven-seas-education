@@ -175,13 +175,7 @@ const Documents = () => {
                </div>
             </div>
             
-            <div className="bg-white rounded-3xl border border-slate-100 p-8 shadow-lg text-center">
-              <div className="w-20 h-20 bg-brand-orange/10 rounded-full flex items-center justify-center text-brand-orange mx-auto mb-6">
-                <ShieldCheck size={40} />
-              </div>
-              <h4 className="font-black text-slate-900 mb-2 tracking-tight">ISO Certified Quality</h4>
-              <p className="text-slate-500 text-xs">Ensuring your documents meet international standards for study abroad.</p>
-            </div>
+
           </div>
         </div>
       </Section>
